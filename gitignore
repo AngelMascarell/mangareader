@@ -1,0 +1,36 @@
+# ==============================
+# Java / Spring Boot
+# ==============================
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# ==============================
+# Node / Frontend
+# ==============================
+/node_modules/
+/dist/
+/build/
+
+# ==============================
+# Docker / Environment
+# ==============================
+.env            # variables de entorno con contraseñas y secretos
+db_data/        # volumenes de MySQL
+*.log           # logs que contengan info sensible
+
+# ==============================
+# IDE / Sistema
+# ==============================
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Otros
+# ==============================
+*.swp

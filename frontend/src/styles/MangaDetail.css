@@ -1,0 +1,29 @@
+.manga-detail {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.manga-detail img {
+  width: 200px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.manga-detail h2 {
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.manga-detail p {
+  color: #555;
+  margin-bottom: 10px;
+  font-size: 0.95em;
+}
+
+.chapter-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}

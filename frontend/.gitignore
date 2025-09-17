@@ -1,0 +1,29 @@
+# Java / Spring Boot
+*.class
+*.jar
+target/
+*.log
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+log/
+hs_err_pid*
+
+# Node.js / frontend
+node_modules/
+dist/
+npm-debug.log
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Docker
+db_data/
+
+# Sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,33 @@
+.manga-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 220px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.manga-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.manga-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.manga-card h3 {
+  margin: 10px 0 5px 0;
+  color: #222;
+}
+
+.manga-card p {
+  margin: 0 0 5px 0;
+  font-size: 0.9em;
+  color: #555;
+}
